@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SnapWorkout
 
 Snap Workout is a fitness Android app designed for people who want to stay in shape but have limited time to spend on going to the gym. The app guides users through a 7-minute exercise session and records each completed session locally on their device.
@@ -13,6 +12,7 @@ Snap Workout is a fitness Android app designed for people who want to stay in sh
 - Room DB for storing exercise history locally so users can track daily exercises.
 
 - ViewBinding which also improves the apps performance.
+- Google api for fetching live location.
 
 
 ## Features
@@ -26,15 +26,5 @@ Snap Workout is a fitness Android app designed for people who want to stay in sh
 - ViewBinding: The app leverages ViewBinding to enhance performance and improve view binding in the codebase.
 
 - BMI Calculations: Snap Workout includes BMI calculations, allowing users to monitor their weight and track their fitness progress.
+- Users can search for nearby gyms using FAB from the google map.
 
-
-
-
-
-
-
-
-=======
-# Workout_app
-An app for high intensity workout.
->>>>>>> 64184fa43643e01d776f0be2eac3dffcc0b63f25
