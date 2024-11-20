@@ -3028,6 +3028,7 @@ drawable ic_push_up_and_rotation
 drawable ic_search_black_24
 drawable ic_side_plank
 drawable ic_squat
+drawable ic_stat_network
 drawable ic_step_up_onto_chair
 drawable ic_triceps_dip_on_chair
 drawable ic_wall_sit
@@ -3214,7 +3215,9 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnCalculateUnits
+id btnCloseInstructions
 id btnFinish
+id btnShowInstructions
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3805,6 +3808,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_custom_back_confirmation
+layout fragment_instructions
 layout item_exercise_status
 layout item_history_row
 layout m3_alert_dialog
@@ -4342,6 +4346,7 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style FullScreenDialogStyle
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text

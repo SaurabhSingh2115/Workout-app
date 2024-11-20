@@ -1,38 +1,46 @@
 [
     {
-        "merged": "com.example.SnapWorkout.app-mergeDebugResources-4:/layout/item_history_row.xml",
-        "source": "com.example.SnapWorkout.app-main-7:/layout/item_history_row.xml"
+        "merged": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-mergeDebugResources-4:\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-main-7:\\layout\\activity_maps.xml"
     },
     {
-        "merged": "com.example.SnapWorkout.app-mergeDebugResources-4:/layout/activity_exercise.xml",
-        "source": "com.example.SnapWorkout.app-main-7:/layout/activity_exercise.xml"
+        "merged": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-mergeDebugResources-4:\\layout\\activity_bmi.xml",
+        "source": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-main-7:\\layout\\activity_bmi.xml"
     },
     {
-        "merged": "com.example.SnapWorkout.app-mergeDebugResources-4:/layout/dialog_custom_back_confirmation.xml",
-        "source": "com.example.SnapWorkout.app-main-7:/layout/dialog_custom_back_confirmation.xml"
+        "merged": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-mergeDebugResources-4:\\layout\\activity_history.xml",
+        "source": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-main-7:\\layout\\activity_history.xml"
     },
     {
-        "merged": "com.example.SnapWorkout.app-mergeDebugResources-4:/layout/activity_maps.xml",
-        "source": "com.example.SnapWorkout.app-main-7:/layout/activity_maps.xml"
+        "merged": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-mergeDebugResources-4:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-main-7:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.SnapWorkout.app-mergeDebugResources-4:/layout/activity_bmi.xml",
-        "source": "com.example.SnapWorkout.app-main-7:/layout/activity_bmi.xml"
+        "merged": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-mergeDebugResources-4:\\layout\\dialog_custom_back_confirmation.xml",
+        "source": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-main-7:\\layout\\dialog_custom_back_confirmation.xml"
     },
     {
-        "merged": "com.example.SnapWorkout.app-mergeDebugResources-4:/layout/activity_history.xml",
-        "source": "com.example.SnapWorkout.app-main-7:/layout/activity_history.xml"
+        "merged": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-mergeDebugResources-4:\\layout\\activity_exercise.xml",
+        "source": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-main-7:\\layout\\activity_exercise.xml"
     },
     {
-        "merged": "com.example.SnapWorkout.app-mergeDebugResources-4:/layout/item_exercise_status.xml",
-        "source": "com.example.SnapWorkout.app-main-7:/layout/item_exercise_status.xml"
+        "merged": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-mergeDebugResources-4:\\layout\\activity_finish.xml",
+        "source": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-main-7:\\layout\\activity_finish.xml"
+    },
+    {
+        "merged": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-mergeDebugResources-4:\\layout\\item_history_row.xml",
+        "source": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-main-7:\\layout\\item_history_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-mergeDebugResources-4:\\layout\\fragment_instructions.xml",
+        "source": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-main-7:\\layout\\fragment_instructions.xml"
     },
     {
         "merged": "com.example.SnapWorkout.app-mergeDebugResources-4:/layout/activity_main.xml",
         "source": "com.example.SnapWorkout.app-main-7:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.SnapWorkout.app-mergeDebugResources-4:/layout/activity_finish.xml",
-        "source": "com.example.SnapWorkout.app-main-7:/layout/activity_finish.xml"
+        "merged": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-mergeDebugResources-4:\\layout\\item_exercise_status.xml",
+        "source": "C:\\Users\\ss21x\\.gradle\\daemon\\7.5\\com.example.SnapWorkout.app-main-7:\\layout\\item_exercise_status.xml"
     }
 ]

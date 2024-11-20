@@ -4,6 +4,7 @@ package com.example.SnapWorkout.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -21,6 +22,9 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button btnShowInstructions;
+
+  @NonNull
   public final FloatingActionButton fab;
 
   @NonNull
@@ -32,9 +36,11 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final FrameLayout flStart;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull FloatingActionButton fab,
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button btnShowInstructions, @NonNull FloatingActionButton fab,
       @NonNull FrameLayout flBMI, @NonNull FrameLayout flHistory, @NonNull FrameLayout flStart) {
     this.rootView = rootView;
+    this.btnShowInstructions = btnShowInstructions;
     this.fab = fab;
     this.flBMI = flBMI;
     this.flHistory = flHistory;
@@ -68,6 +74,12 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnShowInstructions;
+      Button btnShowInstructions = ViewBindings.findChildViewById(rootView, id);
+      if (btnShowInstructions == null) {
+        break missingId;
+      }
+
       id = R.id.fab;
       FloatingActionButton fab = ViewBindings.findChildViewById(rootView, id);
       if (fab == null) {
@@ -92,7 +104,8 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, fab, flBMI, flHistory, flStart);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnShowInstructions, fab, flBMI,
+          flHistory, flStart);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

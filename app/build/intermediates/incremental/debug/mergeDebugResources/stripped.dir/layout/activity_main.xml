@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -34,8 +35,7 @@
             android:textSize="22sp"
             android:textStyle="bold" />
     </FrameLayout>
-    <!-- Todo Position bmi frame layout to the start of history frame layout and start of parent
-     -->
+
     <FrameLayout
         android:id="@+id/flBMI"
         android:layout_width="70dp"
@@ -56,8 +56,7 @@
             android:textSize="22sp"
             android:textStyle="bold" />
     </FrameLayout>
-    <!-- Todo position the bmi text below the bmi frame layout and center
-        -->
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,40 +68,39 @@
         app:layout_constraintEnd_toEndOf="@id/flBMI"
         app:layout_constraintStart_toStartOf="@id/flBMI"
         app:layout_constraintTop_toBottomOf="@id/flBMI" />
-    <!-- Todo Position history framelayout to end of bmi frame layout and end of parent-->
+
     <FrameLayout
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/flBMI"
-        app:layout_constraintTop_toBottomOf="@id/flStart"
         android:id="@+id/flHistory"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_gravity="center"
         android:background="@drawable/item_circular_color_accent_background"
-        android:gravity="center">
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/flBMI"
+        app:layout_constraintTop_toBottomOf="@id/flStart">
 
         <ImageView
             android:layout_width="50dp"
-            android:layout_gravity="center"
             android:layout_height="50dp"
+            android:layout_gravity="center"
             android:contentDescription="@string/image"
             android:src="@drawable/ic_calendar" />
     </FrameLayout>
 
-    <!-- Todo position the history text below the history frame layout and center
-    -->
     <TextView
-        app:layout_constraintTop_toBottomOf="@id/flHistory"
-        app:layout_constraintStart_toStartOf="@id/flHistory"
-        app:layout_constraintEnd_toEndOf="@id/flHistory"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="History"
         android:textColor="@color/colorAccent"
         android:textSize="22sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/flHistory"
+        app:layout_constraintStart_toStartOf="@id/flHistory"
+        app:layout_constraintTop_toBottomOf="@id/flHistory" />
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -112,5 +110,18 @@
         app:maxImageSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- New Button to show instructions -->
+    <Button
+        android:id="@+id/btnShowInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Instructions"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/flStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

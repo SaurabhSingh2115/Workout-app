@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-66:12
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-75:12
 MERGED from [androidx.databinding:viewbinding:7.4.2] C:\Users\ss21x\.gradle\caches\transforms-3\2e18597a66aca0e73484c23326c8a0e9\transformed\jetified-viewbinding-7.4.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.room:room-ktx:2.5.2] C:\Users\ss21x\.gradle\caches\transforms-3\8a070407753130a776423c89f3be48b7\transformed\jetified-room-ktx-2.5.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\ss21x\.gradle\caches\transforms-3\9fa01d4f7735d0f0a6a0ea7045f6b239\transformed\room-runtime-2.5.2\AndroidManifest.xml:17:1-31:12
@@ -59,20 +59,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\ss21x\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\ss21x\.gradle\caches\transforms-3\2ff53fee4bc33a1da5cdbfe55cfab510\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\ss21x\.gradle\caches\transforms-3\a21766c7c1a00190a294c68fee7e28e6\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\ss21x\.gradle\caches\transforms-3\d15244ba7a35fe180ae1116dac8e0689\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-66:12
-INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-75:12
+INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-75:12
 	package
 		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml
 		INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-66:12
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-75:12
 		INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-66:12
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:1-75:12
 		INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:2:11-69
@@ -106,8 +106,12 @@ action#android.intent.action.TTS_SERVICE
 ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:10:13-72
 	android:name
 		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:10:21-69
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:14:22-74
 application
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:14:5-64:19
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:15:5-73:19
 MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\ss21x\.gradle\caches\transforms-3\9fa01d4f7735d0f0a6a0ea7045f6b239\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
 MERGED from [androidx.room:room-runtime:2.5.2] C:\Users\ss21x\.gradle\caches\transforms-3\9fa01d4f7735d0f0a6a0ea7045f6b239\transformed\room-runtime-2.5.2\AndroidManifest.xml:23:5-29:19
 MERGED from [com.google.android.gms:play-services-location:21.3.0] C:\Users\ss21x\.gradle\caches\transforms-3\b4b88b334ca60e7c2f41b3cccc475194\transformed\jetified-play-services-location-21.3.0\AndroidManifest.xml:6:5-20
@@ -139,95 +143,107 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\ss
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] C:\Users\ss21x\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:21:9-35
 	android:label
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:18:9-41
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:19:9-41
 	android:roundIcon
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:19:9-54
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:20:9-54
 	android:icon
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:17:9-43
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:18:9-43
 	android:allowBackup
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:17:9-35
 	android:theme
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:21:9-49
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:22:9-49
 	android:name
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:15:9-58
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:16:9-58
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:22:9-24:47
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:23:9-25:47
 	android:value
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:24:13-44
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:25:13-44
 	android:name
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:23:13-58
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:24:13-58
 activity#com.example.SnapWorkout.activities.HistoryActivity
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:25:9-30:15
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:26:9-31:15
 	android:screenOrientation
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:28:13-49
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:29:13-49
 	android:exported
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:28:13-36
 	android:theme
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:29:13-54
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:30:13-54
 	android:name
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:26:13-78
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:27:13-78
 activity#com.example.SnapWorkout.activities.BMIActivity
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:31:9-35:57
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:32:9-36:57
 	android:screenOrientation
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:35:13-49
 	android:exported
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:34:13-36
 	android:theme
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:35:13-54
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:36:13-54
 	android:name
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:32:13-74
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:33:13-74
 activity#com.example.SnapWorkout.activities.FinishActivity
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:36:9-40:57
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:37:9-41:57
 	android:screenOrientation
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:39:13-49
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:40:13-49
 	android:exported
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:38:13-36
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:39:13-36
 	android:theme
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:40:13-54
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:41:13-54
 	android:name
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:37:13-77
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:38:13-77
 activity#com.example.SnapWorkout.activities.ExerciseActivity
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:41:9-45:57
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:42:9-46:57
 	android:screenOrientation
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:44:13-49
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:45:13-49
 	android:exported
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:43:13-36
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:44:13-36
 	android:theme
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:45:13-54
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:46:13-54
 	android:name
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:42:13-79
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:43:13-79
 activity#com.example.SnapWorkout.activities.MapsActivity
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:46:9-50:57
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:47:9-51:57
 	android:screenOrientation
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:49:13-49
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:50:13-49
 	android:exported
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:48:13-36
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:49:13-36
 	android:theme
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:50:13-54
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:51:13-54
 	android:name
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:47:13-75
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:48:13-75
 activity#com.example.SnapWorkout.activities.MainActivity
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:51:9-62:20
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:52:9-63:20
 	android:screenOrientation
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:54:13-49
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:55:13-49
 	android:exported
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:53:13-36
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:54:13-36
 	android:theme
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:55:13-54
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:56:13-54
 	android:name
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:52:13-75
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:53:13-75
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:57:13-61:29
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:58:13-62:29
 action#android.intent.action.MAIN
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:58:17-69
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:59:17-69
 	android:name
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:58:25-66
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:59:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:60:17-77
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:61:17-77
 	android:name
-		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:60:27-74
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:61:27-74
+receiver#com.example.SnapWorkout.receivers.NetworkBroadcastReceiver
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:65:9-71:20
+	android:exported
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:67:13-36
+	android:name
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:66:13-63
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:68:13-70:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:69:17-79
+	android:name
+		ADDED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml:69:25-76
 uses-sdk
 INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\7th sem\cse226\SnapWorkout\app\src\main\AndroidManifest.xml
